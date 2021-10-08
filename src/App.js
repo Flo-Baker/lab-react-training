@@ -19,16 +19,24 @@ function App() {
     image={'https://static.wikia.nocookie.net/wackishlyawesomerandomness/images/0/08/Imagemkksje.jpg'}
     />
     <IdCard
-    lastName={'Mustermann'}
+    lastName={'Musterfrau'}
     firstName={'Lisa'}
     gender={'female'}
-    height={180}
+    height={160}
     birth={"1990-02-02"}
     image={'https://randomuser.me/api/portraits/women/44.jpg'}
     />
     <hr />
     <h2>Iteration #2 - Greetings</h2>
-    <GreetingCard lang="de" text="Hallo">Ludwig</GreetingCard>
+    {/* <GreetingCard lang="de" text="Hallo">Ludwig</GreetingCard> */}
+    <GreetingCard lang="Hallo" text="Ludwig"></GreetingCard>
+    {/* <GreetingCard lang="fr">François</GreetingCard> */}
+    <GreetingCard lang="Bonjour" text="François"></GreetingCard>
+
+    if (props)lang === "de" return german greeting (props)text hello (props.children)Ludwig
+    
+    && if lang is fr return french greeting Bonjour
+
     {/* <GreetingCard lang="fr">François</GreetingCard> */}
     {/* <GreetingCard 
     langDe={"Ludwig"}

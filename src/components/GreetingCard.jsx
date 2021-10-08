@@ -1,5 +1,45 @@
 import React from 'react';
 
+/*
+Create a Greetings component with 2 props:
+
+lang: A string that could be ,"de" (=Hallo),"en","es","fr" (props) 
+children: A text (props.children)
+
+            <p><b>Hallo</b> {de}</p>
+<IdCard lastName={'Musterfrau'}/>
+
+const de ="Hallo"?
+
+const lang = [{de:"Hallo"}, {fr:"Bonjour"}]
+
+props.lang 
+
+Example
+
+<Greetings lang="de">Ludwig</Greetings>
+<Greetings lang="fr">François</Greetings>
+
+What are the names? ?? 
+ */
+
+// const de = "Hallo"
+// const fr = "Bonjour"
+
+function GreetingCard({lang, text}) {
+// if (lang === de) {
+//     text = "Hallo";
+// } 
+// if (lang === fr)
+
+// }
+    return (
+    <div>
+        <p>{lang} {text}</p>
+    </div>
+)
+}
+
 // const GreetingStyle = {
 //     textAlign: 'left',
 //     border: 'solid 2px black',
@@ -24,14 +64,9 @@ import React from 'react';
 //   </div>;
 // }
 
-function GreetingCard({lang, text}) {
-return (
-    <div>
-        <p>{lang}</p>
-        <p>{text}</p>
-    </div>
-)
-}
+// const lang="de" 
+
+
 
 
 
