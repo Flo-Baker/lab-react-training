@@ -11,24 +11,22 @@ const IdStyle = {
     display: 'flex',
 }
 
+
 const imgStyle = {
     width: '150px',
     paddingRight: '10px',    
 }
 
-// QUESTION: HOW TO GET CONTENT BOLD EXCEPT THE PROPS (BEST PRACTICE)
-// BEST PRACTICE TO PUT THE CONTENT INTO <ul>?
-
-function IdCard(props){
+function IdCard({image, lastName, firstName, gender, height, birth}){
         return(
         <div style={IdStyle}>
-            <img style={imgStyle} src={props.image} alt='idCard-img'/>
+            <img style={imgStyle} src={image} alt='idCard-img'/>
             <div>
-            <p>Last Name: {props.lastName}</p>
-            <p>First Name: {props.firstName}</p> 
-            <p>Gender: {props.gender}</p>   
-            <p>Height: {props.height}</p>
-            <p>Birth: {props.birth}</p>
+            <p><b>Last Name:</b> {lastName}</p>
+            <p><b>First Name:</b> {firstName}</p> 
+            <p><b>Gender:</b> {gender}</p>   
+            <p><b>Height:</b> {height}</p>
+            <p><b>Birth:</b> {birth}</p>
             </div>
         </div>
     );
