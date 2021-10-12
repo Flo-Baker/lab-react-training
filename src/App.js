@@ -28,21 +28,9 @@ function App() {
     />
     <hr />
     <h2>Iteration #2 - Greetings</h2>
-    {/* <GreetingCard lang="de" text="Hallo">Ludwig</GreetingCard> */}
-    <GreetingCard lang="Hallo" text="Ludwig"></GreetingCard>
-    {/* <GreetingCard lang="fr">François</GreetingCard> */}
-    <GreetingCard lang="Bonjour" text="François"></GreetingCard>
-
-    if (props)lang === "de" return german greeting (props)text hello (props.children)Ludwig
-    
-    && if lang is fr return french greeting Bonjour
-
-    {/* <GreetingCard lang="fr">François</GreetingCard> */}
-    {/* <GreetingCard 
-    langDe={"Ludwig"}
-    langEs={"Juan"}
-    langFr={"François"}
-    /> */}
+    <GreetingCard lang="de">Ludwig</GreetingCard>
+    <GreetingCard lang="fr">François</GreetingCard>
+    <GreetingCard lang="pt">José</GreetingCard>
     <hr />
     <h2>Iteration #3 - Random</h2>
     {/* <Random /> */}
